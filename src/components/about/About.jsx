@@ -10,7 +10,7 @@ function About() {
     <div className="aboutContainer">
       <div className="aboutDescription">
         <div className="leftImg"></div>
-        <h2>Something about the company</h2>
+        <h2 id="aboutTitle">Something about the company</h2>
         <div className="rightImg"></div>
       </div>
     </div>

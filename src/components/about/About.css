@@ -6,7 +6,17 @@
 
 .aboutDescription {
   display: inherit;
-  margin: 3em;
+  margin: 100px 3em;
+}
+
+#aboutTitle {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+  font-family: "Teko", sans-serif;
+  font-size: 2em;
+  line-height: 35px;
 }
 
 .leftImg {
