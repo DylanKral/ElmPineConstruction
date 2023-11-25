@@ -1,0 +1,28 @@
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutDescription {
+  display: inherit;
+  margin: 3em;
+}
+
+.leftImg {
+  background-image: url(../../assets//LeftAboutSection.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 2em;
+  width: 250px;
+  height: 350px;
+}
+
+.rightImg {
+  background-image: url(../../assets//RightAboutSection.png);
+  background-repeat: no-repeat;
+  margin-left: 2em;
+  background-position: center;
+  width: 250px;
+  height: 350px;
+}
