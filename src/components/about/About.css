@@ -2,21 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .aboutDescription {
   display: inherit;
-  margin: 100px 3em;
-}
-
-#aboutTitle {
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  bottom: 40px;
-  font-family: "Teko", sans-serif;
-  font-size: 2em;
-  line-height: 35px;
+  margin: 75px 3em;
+  z-index: 10;
 }
 
 .leftImg {
@@ -35,4 +28,67 @@
   background-position: center;
   width: 250px;
   height: 350px;
+}
+
+#aboutWordingContainer{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+#aboutTitle {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  bottom: 35px;
+  font-family: 'Roboto',sans-serif;
+  font-size: 2em;
+  line-height: 35px;
+  width: 350px;
+}
+
+#aboutWording{
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+  position: relative;
+  bottom: 10px;
+  margin: auto;
+  font-size: 1.25em;
+  width: 300px;
+}
+
+#contactButton{
+  background:none;
+  padding: .5em;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  margin: .75em;
+  border-radius: 10px;
+}
+
+.backgroundShapes{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
+
+.blob{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+#leftBlob{
+ overflow: visible;
+ margin: 10%;
+}
+
+#middleBlob{
+  top: 50px;
+  fill:#d3d3d3;
+  fill-opacity: .5;
+  overflow: visible;
 }
