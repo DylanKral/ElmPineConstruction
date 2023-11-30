@@ -1,7 +1,8 @@
 nav {
-  position: fixed;
-  width: 100%;
+  position: absolute;
+  width: 95%;
   padding: 1em;
+  overflow: hidden;
 }
 
 #navUl {
@@ -10,6 +11,7 @@ nav {
   list-style: none;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 .navlink {
@@ -19,4 +21,16 @@ nav {
   font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.logo{
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
+}
+
+#elmPineLogo{
+  position: relative;
+  right: 150px;
+  overflow: hidden;
 }

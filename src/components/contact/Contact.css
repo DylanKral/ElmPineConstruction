@@ -1,0 +1,14 @@
+.contactContainer{
+    background-color: #1a243b;
+    padding: 2em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#contactLogo{
+    
+}
