@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero.jsx";
 import Nav from "./components/nav/Nav.jsx";
 import About from "./components/about/About.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/footer.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }

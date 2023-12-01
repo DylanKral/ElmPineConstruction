@@ -1,5 +1,7 @@
 .heroContainer {
-  background-image: url(../../assets/heroImage.png);
+  background-image: url(../../assets/heroImage.png),
+    linear-gradient(0.4turn, rgba(234, 156, 75, 0.5), rgba(26, 36, 59, 0.8));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
