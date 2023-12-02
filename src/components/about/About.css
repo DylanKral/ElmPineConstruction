@@ -30,7 +30,7 @@
   height: 350px;
 }
 
-#aboutWordingContainer{
+#aboutWordingContainer {
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -42,14 +42,14 @@
   justify-content: center;
   position: relative;
   bottom: 35px;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2em;
   line-height: 35px;
   width: 350px;
 }
 
-#aboutWording{
-  font-family: 'Roboto', sans-serif;
+#aboutWording {
+  font-family: "Roboto", sans-serif;
   align-self: center;
   position: relative;
   bottom: 10px;
@@ -58,37 +58,12 @@
   width: 300px;
 }
 
-#contactButton{
-  background:none;
-  padding: .5em;
-  font-family: 'Roboto',sans-serif;
+#contactButton {
+  background: none;
+  padding: 0.5em;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1.25em;
-  margin: .75em;
+  margin: 0.75em;
   border-radius: 10px;
-}
-
-.backgroundShapes{
-  position: absolute;
-  display: flex;
-  z-index: 1;
-}
-
-.blob{
-  height: 500px;
-  width: 500px;
-  position: relative;
-  z-index: 1;
-}
-
-#leftBlob{
- overflow: visible;
- margin: 10%;
-}
-
-#middleBlob{
-  top: 50px;
-  fill:#d3d3d3;
-  fill-opacity: .5;
-  overflow: visible;
 }

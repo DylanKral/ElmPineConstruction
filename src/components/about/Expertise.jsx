@@ -6,16 +6,19 @@ import { ExpertiseItems } from "./expertiseExports";
 function Expertise() {
   return (
     <div className="expertiseContainer">
-      {ExpertiseItems.map((item, index) => (
-        <div key={index} className="expertiseItem">
-          <img
-            src={item.icon}
-            alt={`Icon for ${item.description}`}
-            className="imageIcon"
-          />
-          <h2>{item.description}</h2>
-        </div>
-      ))}
+      <h2>Here are some of the areas we have expertise in! </h2>
+      <div>
+        {ExpertiseItems.map((item, index) => (
+          <div key={index} className="expertiseItem">
+            <img
+              src={item.icon}
+              alt={`Icon for ${item.description}`}
+              className="imageIcon"
+            />
+            <h2>{item.description}</h2>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

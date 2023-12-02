@@ -8,6 +8,7 @@
   --yellow: rgba(234, 156, 75);
   --yellowTransparent: rgba(234, 156, 75, 0.5);
   --white: rgb(255, 255, 255);
+  --grey: rgb(201, 201, 201);
 }
 
 * {

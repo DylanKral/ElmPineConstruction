@@ -3,7 +3,7 @@ import drywall from "../../assets/drywall-icon.svg";
 import flooring from "../../assets/flooring-icon-color.svg";
 import bathrooom from "../../assets/bathroom-icon.svg";
 import painting from "../../assets/painting-icon.svg";
-import cabinet from "../../assets/cabinet-icon-color.svg";
+import cabinet from "../../assets/cabinet-icon.svg";
 
 export const ExpertiseItems = [
   {
