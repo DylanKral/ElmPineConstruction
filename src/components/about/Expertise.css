@@ -1,0 +1,17 @@
+.expertiseContainer {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.expertiseItem {
+  margin: 2em;
+}
+
+.imageIcon {
+  height: 200px;
+}

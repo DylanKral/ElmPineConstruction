@@ -8,41 +8,45 @@ function Contact() {
 
   return (
     <div className="contactContainer">
-      <img id="contactLogo" src={logo} alt="Logo of the company" />
+      <h2 id="contactTitle">Contact Us So We Could Set Up A Call!</h2>
 
-      <div className="contactInfoContainer">
-        <form onSubmit={sendEmail}>
-          <input
-            type="text"
-            id="user_name"
-            name="user_name"
-            placeholder="Enter Name"
-          />
-          <br />
-          <input
-            type="email"
-            id="user_email"
-            name="user_email"
-            placeholder="Enter Email"
-          />
-          <br />
-          <input
-            type="number"
-            id="phone_number"
-            name="phone_number"
-            placeholder="Enter Phone Number"
-            maxLength="12"
-          />
-          <br />
-          <textarea
-            id="text-area"
-            name="message"
-            rows="4"
-            placeholder="Enter Message Here"
-          ></textarea>
-          <br />
-          <input type="submit" id="submit" value="Send" />
-        </form>
+      <div id="logoAndInputs">
+        <img id="contactLogo" src={logo} alt="Logo of the company" />
+
+        <div className="contactInfoContainer">
+          <form onSubmit={sendEmail}>
+            <input
+              type="text"
+              id="user_name"
+              name="user_name"
+              placeholder="Enter Name"
+            />
+            <br />
+            <input
+              type="email"
+              id="user_email"
+              name="user_email"
+              placeholder="Enter Email"
+            />
+            <br />
+            <input
+              type="text"
+              id="phone_number"
+              name="phone_number"
+              placeholder="Enter Phone Number"
+              maxLength="12"
+            />
+            <br />
+            <textarea
+              id="text-area"
+              name="message"
+              rows="4"
+              placeholder="Enter Message Here"
+            ></textarea>
+            <br />
+            <input type="submit" id="submit" value="Send" />
+          </form>
+        </div>
       </div>
     </div>
   );

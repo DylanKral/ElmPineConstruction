@@ -17,7 +17,7 @@ function Nav() {
         </li>
         <li>
           <a href="" className="navlink">
-            Testimonials
+            Expertise
           </a>
         </li>
         <li>

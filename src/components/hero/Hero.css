@@ -1,6 +1,6 @@
 .heroContainer {
   background-image: url(../../assets/heroImage.png),
-    linear-gradient(0.4turn, rgba(234, 156, 75, 0.5), rgba(26, 36, 59, 0.8));
+    linear-gradient(0.4turn, var(--yellowTransparent), var(--blueTransparent));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +19,7 @@
 }
 
 #header {
-  color: white;
+  color: var(--white);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -29,7 +29,7 @@
 }
 
 #headerMessage {
-  color: white;
+  color: var(--white);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   text-align: center;
@@ -41,7 +41,7 @@
 .down-arrow {
   position: relative;
   align-self: center;
-  color: white;
+  color: var(--white);
   justify-content: center;
   width: 0;
   border-radius: 2px;

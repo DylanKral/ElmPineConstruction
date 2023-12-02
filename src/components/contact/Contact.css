@@ -1,14 +1,68 @@
-.contactContainer{
-    background-color: #1a243b;
-    padding: 2em;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    display: flex;
+.contactContainer {
+  background-color: var(--blue);
+  padding: 2em;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
 }
 
-#contactLogo{
-    
+#contactTitle {
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+  margin-bottom: 35px;
+  width: 250px;
+}
+
+#logoAndInputs {
+  display: flex;
+}
+
+#contactLogo {
+  margin-right: 5em;
+}
+
+#user_email,
+#user_name,
+#phone_number,
+#text-area {
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--yellow);
+  margin: 1em;
+  transition: 0.1s ease all;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25em;
+  width: 275px;
+  color: var(--white);
+}
+
+#user_email:focus,
+#user_name:focus,
+#phone_number:focus,
+#text-area:focus {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid var(--yellow);
+}
+
+#submit {
+  background: none;
+  padding: 0.75em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25em;
+  border-color: var(--yellow);
+  color: var(--yellow);
+  border: 2px solid;
+  border-radius: 10px;
+  transition: 0.1s ease all;
+}
+
+#submit:hover {
+  background-color: var(--yellow);
+  color: var(--blue);
 }
