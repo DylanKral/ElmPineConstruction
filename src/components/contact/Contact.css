@@ -8,6 +8,7 @@
   text-align: center;
   display: flex;
   flex-flow: column;
+
 }
 
 #contactTitle {
@@ -65,4 +66,25 @@
 #submit:hover {
   background-color: var(--yellow);
   color: var(--blue);
+}
+
+.contactTopShapeDivider {
+  position: relative;
+  top: -32px;
+  left: 0;
+  width: 120%;
+  overflow: hidden;
+  
+  line-height: 0;
+}
+
+.contactTopShapeDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 53px;
+}
+
+.contactTopShapeDivider .shape-fill {
+  fill: var(--yellow);
 }

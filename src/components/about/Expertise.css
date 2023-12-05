@@ -5,8 +5,9 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
   background-color: var(--yellow);
+  padding-top: 50px;
 }
 
 .expertiseItem {
@@ -15,4 +16,33 @@
 
 .imageIcon {
   height: 200px;
+}
+
+.expertiseIcons{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.expertiseTopShapeDivider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.expertiseTopShapeDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 34px;
+}
+
+.expertiseTopShapeDivider .shape-fill {
+  fill: #FFFFFF;
 }
