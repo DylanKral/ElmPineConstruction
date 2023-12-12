@@ -1,31 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 
-import logo from "../../assets/image2vector.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Nav.css";
 
 function Nav() {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+  function toggleHamburger() {
+    setHamburgerOpen(!hamburgerOpen);
+  }
+
   return (
     <nav>
       <ul id="navUl">
-        <div>
-          <img className="logo" id="elmPineLogo" src={logo} alt="Logo" />
-        </div>
         <li>
-          <a href="" className="navlink">
+          <a href="#about" className="navlink">
             About
           </a>
         </li>
         <li>
-          <a href="" className="navlink">
+          <a href="#expertise" className="navlink">
             Expertise
           </a>
         </li>
         <li>
-          <a href="" className="navlink">
+          <a href="#contact" className="navlink">
             Contact
           </a>
         </li>
       </ul>
+
+      <div className="hamburger" onClick={hamburgerOpen}>
+        <FontAwesomeIcon icon={faBars} id="bars" />
+      </div>
     </nav>
   );
 }

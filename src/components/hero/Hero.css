@@ -1,5 +1,5 @@
 .heroContainer {
-  background-image: url(../../assets/heroImage.png),
+  background-image: url(../../assets/heroImage.svg),
     linear-gradient(0.4turn, var(--yellowTransparent), var(--blueTransparent));
   background-blend-mode: overlay;
   background-repeat: no-repeat;

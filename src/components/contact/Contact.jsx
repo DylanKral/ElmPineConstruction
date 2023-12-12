@@ -7,7 +7,7 @@ function Contact() {
   function sendEmail() {}
 
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
       <div class="contactTopShapeDivider">
         <svg
           data-name="Layer 1"

@@ -1,7 +1,6 @@
 nav {
   position: absolute;
-  width: 95%;
-  padding: 1em;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -12,6 +11,7 @@ nav {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .navlink {
@@ -24,6 +24,8 @@ nav {
 }
 
 .logo {
+  padding-top: 20px;
+  position: relative;
   height: 75px;
   width: 75px;
   overflow: hidden;
@@ -33,4 +35,22 @@ nav {
   position: relative;
   right: 150px;
   overflow: hidden;
+}
+
+.hamburger{
+  display: none;
+}
+
+@media (max-width: 700px){
+.hamburger{
+  display: inline;
+  position: fixed;
+  color: white;
+  top: 20px;
+  left: 40px;
+}
+
+#bars{
+  height: 30px;
+}
 }

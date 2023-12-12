@@ -5,7 +5,7 @@ import { ExpertiseItems } from "./expertiseExports";
 
 function Expertise() {
   return (
-    <div className="expertiseContainer">
+    <div className="expertiseContainer" id="expertise">
       <div class="expertiseTopShapeDivider">
         <svg
           data-name="Layer 1"

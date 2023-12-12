@@ -8,7 +8,6 @@
   text-align: center;
   display: flex;
   flex-flow: column;
-
 }
 
 #contactTitle {
@@ -20,10 +19,18 @@
 
 #logoAndInputs {
   display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 #contactLogo {
-  margin-right: 5em;
+  
+}
+
+#text-area{
+  resize: none;
 }
 
 #user_email,
@@ -70,11 +77,10 @@
 
 .contactTopShapeDivider {
   position: relative;
-  top: -32px;
+  top: -34px;
   left: 0;
   width: 120%;
   overflow: hidden;
-  
   line-height: 0;
 }
 

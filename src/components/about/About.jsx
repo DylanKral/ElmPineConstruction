@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./About.css";
 import Expertise from "./Expertise";
@@ -6,7 +6,7 @@ import Expertise from "./Expertise";
 function About() {
   return (
     <React.Fragment>
-      <div className="aboutContainer">
+      <div className="aboutContainer" id="about">
         <div className="aboutDescription">
           <div className="leftImg"></div>
           <div id="aboutWordingContainer">

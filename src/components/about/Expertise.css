@@ -24,11 +24,24 @@
   justify-content: center;
   display: flex;
   flex-flow: row wrap;
+  overflow: hidden;
+}
+
+@media(max-width: 750px){
+  .expertiseIcons{
+    width: inherit;
+  }
+}
+
+@media(min-width: 1000px){
+  .expertiseIcons{
+    width: 1000px;
+  }
 }
 
 .expertiseTopShapeDivider {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
