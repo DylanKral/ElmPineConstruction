@@ -3,7 +3,7 @@ import React from "react";
 import "./Hero.css";
 function Hero() {
   return (
-    <div className="heroContainer">
+    <div className="heroContainer" id="home">
       <div className="messageContainer">
         <h1 id="header">
           ElmPine <br />
