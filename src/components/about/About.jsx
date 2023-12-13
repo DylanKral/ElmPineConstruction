@@ -17,7 +17,9 @@ function About() {
               renovations to new builds, our dedicated team is committed to
               delivering quality craftsmanship that turns houses into homes.
             </p>
-            <button id="contactButton">Schedule a Call</button>
+            <a id="contactButton" href="#contact">
+              Schedule a Call
+            </a>
           </div>
           <div className="rightImg"></div>
         </div>

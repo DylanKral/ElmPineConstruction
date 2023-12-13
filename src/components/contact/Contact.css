@@ -25,8 +25,8 @@
   width: 100%;
 }
 
-#contactLogo {
-  
+#contactLogo{
+  margin-bottom: 2em;
 }
 
 #text-area{
@@ -93,4 +93,11 @@
 
 .contactTopShapeDivider .shape-fill {
   fill: var(--yellow);
+}
+
+@media (max-width: 500px){
+  #contactLogo {
+  height: 300px;
+  
+}
 }
