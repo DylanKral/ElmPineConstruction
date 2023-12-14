@@ -46,6 +46,7 @@
   font-size: 1.25em;
   width: 275px;
   color: var(--white);
+  padding: 5px;
 }
 
 #user_email:focus,
