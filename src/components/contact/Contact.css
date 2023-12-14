@@ -102,3 +102,36 @@
   
 }
 }
+.popup {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  opacity: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out, top .3s ease-in-out ;
+}
+
+.popup p {
+  margin: 0;
+}
+
+.popup.show{
+  top: 250px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup.hide{
+  top:-50px;
+  opacity:0;
+}
+
+#sentMessage{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
